@@ -1,10 +1,10 @@
-package net.slipp;
+package com.handong.hellospring;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MySlippApplicationTests {
+class HelloSpringApplicationTests {
 
 	@Test
 	void contextLoads() {

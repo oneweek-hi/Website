@@ -1,13 +1,13 @@
-package net.slipp;
+package com.handong.hellospring;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MySlippApplication {
+public class HelloSpringApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MySlippApplication.class, args);
+		SpringApplication.run(HelloSpringApplication.class, args);
 	}
 
 }
