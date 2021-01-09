@@ -43,7 +43,7 @@ class MemoryMemberRepositoryTest {
 
         Member result = repository.findByName("spring1").get();
         assertThat(result).isEqualTo(member1);
-    }
+    } 
 
     @Test
     public void findAll(){
